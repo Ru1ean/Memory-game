@@ -23,23 +23,23 @@ body {
 }
 .game-board {
     display: grid;
-    grid-template-columns: repeat(6, 70px);
-    grid-template-rows: repeat(6, 70px);
-    gap: 0.8rem;
+    grid-template-columns: repeat(6, 40px);   /* Reduced from 70px */
+    grid-template-rows: repeat(6, 40px);      /* Reduced from 70px */
+    gap: 0.6rem;                              /* Slightly reduced gap */
     background: rgba(255,255,255,0.08);
-    padding: 2rem;
+    padding: 1.2rem;                          /* Reduced padding */
     border-radius: 20px;
     box-shadow: 0 8px 32px rgba(0,0,0,0.3);
 }
 .card {
-    width: 70px;
-    height: 70px;
+    width: 40px;                              /* Reduced from 70px */
+    height: 40px;                             /* Reduced from 70px */
     background: rgba(255, 255, 255, 0.781);
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.8rem;
+    font-size: 1.2rem;                        /* Slightly smaller font */
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
