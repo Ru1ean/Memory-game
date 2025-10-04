@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game - Easy</title>
+    <link rel="stylesheet" href="css/easy.css">
+</head>
+<body>
+    <button class="back-btn" onclick="window.location.href='index.html'">
+        <span>←</span> Back
+    </button>
+
+    <h1>Easy Mode (4x4)</h1>
+    <div class="game-board" id="gameBoard"></div>
+    <div id="timer" style="font-size:1.5rem;margin:1.5rem 0;">Time Left: 00:05</div>
+
+    <div id="popup">
+        <div class="popup-content">
+            <p id="popup-message"></p>
+            <div class="popup-buttons">
+                <button id="tryAgainBtn" class="popup-btn">Try Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+</html>
